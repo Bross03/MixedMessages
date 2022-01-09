@@ -1,10 +1,59 @@
 console.log("Welcome to pedro's fortune teller");
-console.log("It provides 100% accurate predictions about your love life, carrer, cause age of death");
-const career=['tech', 'business','art','marketing', 'engineering','street artist','filmaker'];
-const quality=['Excellent','amazing','incredible','average','mediocre','complete failure','decent','horrible','bad','good'];
+console.log("It provides 100% accurate predictions about your love life, carrer, cause and age of death");
+const career=['tech', 'business','art','marketing', 'engineering','film making'];
+const quality=['Excellent','amazing','incredible','average','mediocre','a complete failure','decent','horrible','bad','good'];
 const living=['Italy','England','Canada','America','Brazil','Japan'];
-const nameWife=["Emily","Hannah","Madison","Ashley","Sarah","Alexis","Samantha","Jessica","Elizabeth","Taylor","Lauren","Alyssa","Kayla","Abigail","Brianna","Olivia","Emma","Megan","Grace","Victoria","Rachel","Anna","Sydney","Destiny","Morgan","Jennifer","Jasmine","Haley","Julia","Kaitlyn","Nicole","Amanda","Katherine","Natalie","Hailey","Alexandra","Savannah","Chloe","Rebecca","Stephanie","Maria","Sophia","Mackenzie","Allison","Isabella","Amber","Mary","Danielle","Gabrielle","Jordan","Brooke","Michelle","Sierra","Katelyn","Andrea","Madeline","Sara","Kimberly","Courtney","Erin","Brittany","Vanessa","Jenna","Jacqueline","Caroline","Faith","Makayla","Bailey","Paige","Shelby","Melissa","Kaylee","Christina","Trinity","Mariah","Caitlin","Autumn","Marissa","Breanna","Angela","Catherine","Zoe","Briana","Jada","Laura","Claire","Alexa","Kelsey","Kathryn","Leslie","Alexandria","Sabrina","Mia","Isabel","Molly","Leah","Katie","Gabriella","Cheyenne","Cassandra","Tiffany","Erica","Lindsey","Kylie","Amy","Diana","Cassidy","Mikayla","Ariana","Margaret","Kelly","Miranda","Maya","Melanie","Audrey","Jade","Gabriela","Caitlyn","Angel","Jillian","Alicia","Jocelyn","Erika","Lily","Heather","Madelyn","Adriana","Arianna","Lillian","Kiara","Riley","Crystal","Mckenzie","Meghan","Skylar","Ana","Britney","Angelica","Kennedy","Chelsea","Daisy","Kristen","Veronica","Isabelle","Summer","Hope","Brittney","Lydia","Hayley","Evelyn","Bethany","Shannon","Michaela","Karen","Jamie","Daniela","Angelina","Kaitlin","Karina","Sophie","Sofia","Diamond","Payton","Cynthia","Alexia","Valerie","Monica","Peyton","Carly","Bianca","Hanna","Brenda","Rebekah","Alejandra","Mya","Avery","Brooklyn","Ashlyn","Lindsay","Ava","Desiree","Alondra","Camryn","Ariel","Naomi","Jordyn","Kendra","Mckenna","Holly","Julie","Kendall","Kara","Jasmin","Selena","Esmeralda","Amaya","Kylee","Maggie","Makenzie","Claudia","Kyra","Cameron","Karla","Kathleen","Abby","Delaney","Amelia","Casey","Serena","Savanna","Aaliyah","Giselle","Mallory","April","Raven","Adrianna","Christine","Kristina","Nina","Asia","Natalia","Valeria","Aubrey","Lauryn","Kate","Patricia","Jazmin","Rachael","Katelynn","Cierra","Alison","Macy","Nancy","Elena","Kyla","Katrina","Jazmine","Joanna","Tara","Gianna","Juliana","Fatima","Allyson","Gracie","Sadie","Guadalupe","Genesis","Yesenia","Julianna","Skyler","Tatiana","Alexus","Alana","Elise","Kirsten","Nadia","Sandra","Dominique","Ruby","Haylee","Jayla","Tori","Cindy","Sidney","Ella","Tessa","Carolina","Camille","Jaqueline","Whitney","Carmen","Vivian","Priscilla","Bridget","Celeste","Kiana","Makenna","Alissa","Madeleine","Miriam","Natasha","Ciara","Cecilia","Mercedes","Kassandra","Reagan","Aliyah","Josephine","Charlotte","Rylee","Shania","Kira","Meredith","Eva","Lisa","Dakota","Hallie","Anne","Rose","Liliana","Kristin","Deanna","Imani","Marisa","Kailey","Annie","Nia","Carolyn","Anastasia","Brenna","Dana","Shayla","Ashlee","Kassidy","Alaina","Rosa","Wendy","Logan","Tabitha","Paola","Callie","Addison","Lucy","Gillian","Clarissa","Destinee","Josie","Esther","Denise","Katlyn","Mariana","Bryanna","Emilee","Georgia","Deja","Kamryn","Ashleigh","Cristina","Baylee","Heaven","Ruth","Raquel","Monique","Teresa","Helen","Krystal","Tiana","Cassie","Kayleigh","Marina","Heidi","Ivy","Ashton","Clara","Meagan","Gina","Linda","Gloria","Jacquelyn","Ellie","Jenny","Renee","Daniella","Lizbeth","Anahi","Virginia","Gisselle","Kaitlynn","Julissa","Cheyanne","Lacey","Haleigh","Marie","Martha","Eleanor","Kierra","Tiara","Talia","Eliza","Kaylie","Mikaela","Harley","Jaden","Hailee","Madalyn","Kasey","Ashlynn","Brandi","Lesly","Elisabeth","Allie","Viviana","Cara","Marisol","India","Tatyana","Litzy","Melody","Jessie","Brandy","Alisha","Hunter","Noelle","Carla","Francesca","Tia","Layla","Krista","Zoey","Carley","Janet","Carissa","Iris","Kaleigh","Tyler","Susan","Tamara","Theresa","Yasmine","Tatum","Sharon","Alice","Yasmin","Tamia","Abbey","Alayna","Kali","Lilly","Bailee","Lesley","Mckayla","Ayanna","Serenity","Karissa","Precious","Jane","Maddison","Jayda","Kelsie","Lexi","Phoebe","Halle","Kiersten","Kiera","Tyra","Annika","Felicity","Taryn","Kaylin","Ellen","Kiley","Jaclyn","Rhiannon","Madisyn","Colleen","Joy","Pamela","Charity","Tania","Fiona","Alyson","Kaila","Annabelle","Emely","Angelique","Alina","Irene","Johanna","Regan","Janelle","Janae","Madyson","Paris","Justine","Chelsey","Sasha","Paulina","Mayra","Zaria","Skye","Cora","Brisa","Emilie","Felicia","Larissa","Macie","Tianna","Aurora","Sage","Lucia","Alma","Chasity","Ann","Deborah","Nichole","Jayden","Alanna","Malia","Carlie","Angie","Nora","Kailee","Sylvia","Carrie","Elaina","Sonia","Genevieve","Kenya","Piper","Marilyn","Amari","Macey","Marlene","Barbara","Tayler","Julianne","Brooklynn","Lorena","Perla","Elisa","Kaley","Leilani","Eden","Miracle","Devin","Aileen","Chyna","Athena","Esperanza","Regina","Adrienne","Shyanne","Luz"];
-const causeDeath=['car accident', 'cancer', 'heart disease','covid', 'hypothermia','Stroke','Diabetes','old age'];
-const careerIndividual=career[Math.floor(Math.random()*career.length)];
-const qualityCareer=quality[Math.floor(Math.random()*quality.length)];
-console.log('Your career in '+careerIndividual+' will be '+qualityCareer);
+const nameOfGirls=[null,null,null,null,'Emily',"Hannah","Madison","Ashley","Sarah","Alexis","Samantha","Jessica","Elizabeth","Taylor","Lauren","Alyssa","Kayla","Abigail","Brianna","Olivia"];
+const causesOfDeath=['a car accident', 'cancer', 'heart disease','covid', 'hypothermia','a stroke','diabetes','old age'];
+
+function careerPrediction(){
+    
+    const careerIndividual=career[Math.floor(Math.random()*career.length)];
+    const qualityCareer=quality[Math.floor(Math.random()*quality.length)];
+    const placeOfLiving=living[Math.floor(Math.random()*living.length)];
+    
+    console.log('You will have a career in '+careerIndividual+' which will be '+qualityCareer);
+
+    if(qualityCareer==='a complete failure'){
+        console.log('You will live on the street');
+    }else{
+        console.log('You will end up living in '+placeOfLiving);
+    }
+}
+function loveLifePrediction(){
+    const wifeName=nameOfGirls[Math.floor(Math.random()*nameOfGirls.length)];
+    let lengthMarriage=Math.floor(Math.random()*50);
+    if(wifeName!==null){
+
+        console.log('You will marry a woman named '+wifeName);
+
+        if(lengthMarriage<10){
+            if(lengthMarriage===0){
+                console.log('But your marriage will last less than a year :(');
+            }else{
+                console.log('But your marriage will only last '+lengthMarriage+' years');
+            }
+        }else if(lengthMarriage>40){
+            console.log('You will have a very happy marriage and will be together for the rest of your lives!');
+        }else{
+            console.log('You will be married for '+lengthMarriage+' years');
+        }
+
+    }else{
+        console.log('You will never find love and will die alone');
+    }
+}
+function deathPrediction(){
+    let ageOfDeath;
+    let causeDeath;
+  
+    ageOfDeath=Math.floor(Math.random()*40)+60;
+    causeDeath=causesOfDeath[Math.floor(Math.random()*causesOfDeath.length)];
+    if(causeDeath==='old age'){
+        ageOfDeath=Math.floor(Math.random()*40)+80;
+    }
+    console.log('You will die at '+ ageOfDeath+' due to '+causeDeath);
+}
+careerPrediction();
+loveLifePrediction();
+deathPrediction();
